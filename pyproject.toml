@@ -1,0 +1,11 @@
+[project]
+name = "log-analysis"
+version = "0.1.0"
+description = "Analyse des tentatives de connexion SSH a partir des fichiers auth.log"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib>=3.9.4",
+    "psycopg2-binary>=2.9.12",
+    "requests>=2.32.5",
+]
